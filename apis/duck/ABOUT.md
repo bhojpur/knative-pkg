@@ -205,10 +205,10 @@ import (
     "testing"
 
     // This is where supporting tools for duck-typing will live.
-    "github.com/bhojpur/knative-pkg/apis/duck"
+    "knative.dev/pkg/apis/duck"
 
     // This is where Knative-provided duck types will live.
-    duckv1alpha1 "github.com/bhojpur/knative-pkg/apis/duck/v1alpha1"
+    duckv1alpha1 "knative.dev/pkg/apis/duck/v1alpha1"
 )
 
 // This verifies that MyResource contains all the necessary fields for the
