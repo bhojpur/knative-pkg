@@ -1,4 +1,4 @@
-module knative.dev/pkg
+module github.com/bhojpur/knative-pkg
 
 go 1.17
 
